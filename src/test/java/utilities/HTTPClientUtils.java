@@ -20,16 +20,15 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-
 import com.relevantcodes.extentreports.LogStatus;
 
 import base.TestBase;
 
-public class HTTPClientUtils extends TestBase{
-	
-	public static String GetRequest(String URL , String application_uuid) {
+public class HTTPClientUtils extends TestBase {
+
+	public static String GetRequest(String URL, String application_uuid) {
 		String responseBody;
-		
+
 		RestAssured.baseURI = URL;
 		RequestSpecification httpRequest = RestAssured.given();
 		httpRequest.header("x-request-id", "a904e7ca-7d73-4322-9269-59ceae5500ff");
@@ -38,12 +37,11 @@ public class HTTPClientUtils extends TestBase{
 		httpRequest.header("Accept-Encoding", "gzip, deflate");
 		httpRequest.header("User-Agent", "Mozilla/5.0");
 		Response responseFinal = httpRequest.request(Method.GET, application_uuid);
-		
+
 		responseBody = responseFinal.getBody().asString();
 		return responseBody;
 	}
-	
-	
+
 	public static int generateRandomNumber(int min, int max) {
 		return min + (int) (Math.random() * ((max - min) + 1));
 	}

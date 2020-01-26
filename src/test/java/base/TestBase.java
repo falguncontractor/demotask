@@ -26,7 +26,6 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import utilities.ExtentManager;
 
-
 public class TestBase {
 
 	public static WebDriver driver;
@@ -34,13 +33,12 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
-	//public static Logger log = Logger.getLogger("initLogger");
+	// public static Logger log = Logger.getLogger("initLogger");
 	public static WebDriverWait wait;
 	public static String browser;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	public static String rootDir = System.getProperty("user.dir");
-	
 
 	@BeforeSuite
 	public void setUp() {
@@ -219,7 +217,7 @@ public class TestBase {
 		test.log(LogStatus.INFO, "Selecting from dropdown : " + locator + " value as " + value);
 
 	}
-	
+
 	public boolean isElementPresent(By by) {
 
 		try {

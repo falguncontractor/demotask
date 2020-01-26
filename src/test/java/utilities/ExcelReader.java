@@ -31,9 +31,9 @@ public class ExcelReader {
 	public FileInputStream fis = null;
 	public FileOutputStream fileOut = null;
 	private XSSFWorkbook workbook = null;
-	private  XSSFSheet sheet = null;
+	private XSSFSheet sheet = null;
 	private XSSFRow row = null;
-	private  XSSFCell cell = null;
+	private XSSFCell cell = null;
 
 	public ExcelReader(String path) {
 

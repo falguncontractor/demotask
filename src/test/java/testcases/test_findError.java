@@ -1,6 +1,5 @@
 package testcases;
 
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,7 +20,7 @@ import base.TestBase;
 public class test_findError extends TestBase {
 
 	// This test is to get the number of errors in error code
-	
+
 	@Test
 	public void test_Verify_unique_error_numbers() throws IOException {
 
@@ -52,7 +51,7 @@ public class test_findError extends TestBase {
 					.collect(Collectors.toList());
 			System.out.println(" The actual number of unique error log-lines is :  " + myUniqueList.size());
 
-			 Reporter.log( "The actual number of unique error log-lines is :  " + myUniqueList.size());
+			Reporter.log("The actual number of unique error log-lines is :  " + myUniqueList.size());
 
 			for (String er : myUniqueList) {
 				// System.out.println("-------ERROR-------" + er);

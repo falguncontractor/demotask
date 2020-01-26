@@ -58,12 +58,11 @@ public class utils extends TestBase {
 		type("xpath", "email_address", "test991@gmailcom");
 		click("xpath", "button_create_user");
 		String full_name = FirstName + " " + LastName;
-		Reporter.log( "User -->  " + full_name + " is created in the system");
-		System.out.println("full_name: " + full_name );
+		Reporter.log("User -->  " + full_name + " is created in the system");
+		System.out.println("full_name: " + full_name);
 		Thread.sleep(5000);
 
 	}
-	
 
 	public static void Logout(WebDriver driver) {
 		click("xpath", "logout_button");
@@ -79,11 +78,11 @@ public class utils extends TestBase {
 
 	}
 
-		public static int generateRandomNumber(int min, int max) {
+	public static int generateRandomNumber(int min, int max) {
 		return min + (int) (Math.random() * ((max - min) + 1));
 	}
 
-		// File upload by Robot Class
+	// File upload by Robot Class
 	public void uploadFileWithRobot(String imagePath) {
 		StringSelection stringSelection = new StringSelection(imagePath);
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
@@ -109,5 +108,4 @@ public class utils extends TestBase {
 		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 
-	
 }

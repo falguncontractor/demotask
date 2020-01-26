@@ -40,15 +40,13 @@ public class CustomListeners extends TestBase implements ITestListener, ISuiteLi
 
 	public void onTestFailure(ITestResult arg0) {
 
-		
 		/*
 		 * System.setProperty("org.uncommons.reportng.escape-output","false"); try {
 		 * utils.captureScreenshot(); } catch (IOException e) { // TODO Auto-generated
-		 *  e.printStackTrace(); }
+		 * e.printStackTrace(); }
 		 */
 		test.log(LogStatus.FAIL, arg0.getName().toUpperCase() + " Failed with exception : " + arg0.getThrowable());
-		//test.log(LogStatus.FAIL, test.addScreenCapture(utils.screenshotName));
-
+		// test.log(LogStatus.FAIL, test.addScreenCapture(utils.screenshotName));
 
 		/*
 		 * Reporter.log("Click to see Screenshot");
@@ -57,7 +55,7 @@ public class CustomListeners extends TestBase implements ITestListener, ISuiteLi
 		 * Reporter.log("<a target=\"_blank\" href=" + utils.screenshotName
 		 * +"><img src=" + utils.screenshotName + " height=200 width=200></img></a>");
 		 */
-		
+
 		rep.endTest(test);
 		rep.flush();
 
