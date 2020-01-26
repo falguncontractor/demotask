@@ -1,0 +1,15 @@
+13:04:15,162 DEBUG devpinoyLogger:58 - Config file loaded !!!
+13:04:15,174 DEBUG devpinoyLogger:73 - OR file loaded !!!
+13:04:21,107 DEBUG devpinoyLogger:96 - Chrome Launched !!!
+13:04:22,623 DEBUG devpinoyLogger:105 - Navigated to : https://cafetownsend-angular-rails.herokuapp.com/login
+13:04:24,632 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+13:04:24,636 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+13:04:24,640 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:04:24,644 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:04:24,644 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:04:36,216 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+13:04:36,216 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+13:04:36,220 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:04:36,220 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:04:36,220 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:04:37,877 DEBUG devpinoyLogger:245 - test execution completed !!!

@@ -1,0 +1,32 @@
+Read me:
+Prerequisite: 
+1. Chrome browser 79 should be installed in your machine.
+2. JAVA JRE 1.8 and MAVEN (V 3.6.3) should be installed and environmental variable should be configured on the machine
+
+Steps:
+1. Import current project from Git to eclipse
+For Test RUN:
+1. Go to command prompt 
+2. go to root directory of the project 
+3. Type : mvn clean test  --> this will run all tests ( it also can be run via pom.xml --> located at project root level)
+OR 
+1. Or from Eclispe , we can run the testng.xml file located at : (ProjectRootDirectory)\errorLog\resource_data\runners\testng.xml
+To check the test reports:
+6. After test run refresh the project and go to :  (ProjectRootDirectory)/target/surefire-reports/html/index.html
+
+
+Task 1 and 2
+I have created two tests can be found in following location
+test 1: testcases_errorlog.test_findError ( Provides number of unique log error )
+test 2: testcases_errorlog.test_Leadcycle  ( Logs in and create a user )
+
+Task 3: 
+If there provided more time 
+can create more test / framework which is more suitable
+1. Add more test functions as per the requirement and validations
+2. Adding screenshot on failure methods
+3. Adding more rest-api and database checkers 
+4. adding more reporting as per the test features
+5. create individual test suites ( regression/smoke/sanity/Functionality Specific)
+6. Adding more env specific cases and grouping them 
+7. more detail based functionality for E2E test with Excel/Json data-sets.

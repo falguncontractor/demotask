@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The actual number of unique error log-lines is :  26]]>
+    </line>
+    <line>
+      <![CDATA[User -->  TestDominika243 Korol is created in the system]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12602" started-at="2020-01-26T13:04:23 CET" finished-at="2020-01-26T13:04:36 CET">
+    <groups>
+    </groups>
+    <test name="actual number of unique error" duration-ms="1711" started-at="2020-01-26T13:04:23 CET" finished-at="2020-01-26T13:04:25 CET">
+      <class name="testcases.test_findError">
+        <test-method status="PASS" signature="test_Verify_unique_error_numbers()[pri:0, instance:testcases.test_findError@1ed1993a]" name="test_Verify_unique_error_numbers" duration-ms="271" started-at="2020-01-26T13:04:24 CET" finished-at="2020-01-26T13:04:24 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[The actual number of unique error log-lines is :  26]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Verify_unique_error_numbers -->
+      </class> <!-- testcases.test_findError -->
+    </test> <!-- actual number of unique error -->
+    <test name="create user" duration-ms="10727" started-at="2020-01-26T13:04:25 CET" finished-at="2020-01-26T13:04:36 CET">
+      <class name="testcases.test_Leadcycle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.test_Leadcycle@7880cdf3]" name="setUp" is-config="true" duration-ms="8855" started-at="2020-01-26T13:04:15 CET" finished-at="2020-01-26T13:04:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_create_user()[pri:0, instance:testcases.test_Leadcycle@7880cdf3]" name="test_create_user" duration-ms="10350" started-at="2020-01-26T13:04:25 CET" finished-at="2020-01-26T13:04:36 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[User -->  TestDominika243 Korol is created in the system]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_create_user -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.test_Leadcycle@7880cdf3]" name="tearDown" is-config="true" duration-ms="1180" started-at="2020-01-26T13:04:36 CET" finished-at="2020-01-26T13:04:37 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.test_Leadcycle -->
+    </test> <!-- create user -->
+  </suite> <!-- Suite -->
+</testng-results>
